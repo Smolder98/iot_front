@@ -1,0 +1,31 @@
+{
+  "name": "iot-front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "server": "http-server ./dist"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^4.4.1",
+    "moment-timezone": "^0.5.43",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.8",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "http-server": "^14.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vue-tsc": "^1.8.22"
+  }
+}
